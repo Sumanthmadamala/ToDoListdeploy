@@ -3,7 +3,7 @@ import { useState } from "react";
 import ToDoList from "./ToDoList";
 
 const First = () => {
-  const [thing, setthing] = useState("buy shit");
+  const [thing, setthing] = useState("buy apples");
   const [list, setList] = useState([]);
 
   const livechange = (event) => {
